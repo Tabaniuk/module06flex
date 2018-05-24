@@ -1,0 +1,162 @@
+.wrapper-welcome {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-welcome {
+    width: 1110px;
+    margin: auto;
+    padding: 85px 0 100px;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 570px;
+    position: relative;
+
+}
+
+.welcome-title {
+    font-family: Lato,sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    flex-grow: 1;
+}
+
+.welcome-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background-color: #000000;
+    bottom: 130%;
+    left: 50%;
+}
+
+.welcome-text {
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+    flex-grow: 3;
+    line-height: 2;
+}
+
+.welcome-works {
+    min-height: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-genus {
+    width: 255px;
+    min-height: 290px;
+    border: 1px solid #8e8e8e;
+    font-family: Pe-icon-7-stroke,sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.work-title:after {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #8e8e8e;
+    position: absolute;
+    left: 50%;
+    top: 200%;
+    transform: translateX(-50%);
+}
+
+.work-about {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    text-align: center;
+}
+
+.work-btn {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}
+
+.dimond:before {
+    width: 60px;
+    background-color: #ffffff;
+    color: #8e8e8e;
+    position: absolute;
+    content: "\e6af";
+    font-size: 50px;
+    left: 50%;
+    bottom: 90%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.rocket:before {
+    width: 60px;
+    background-color: #ffffff;
+    color: #8e8e8e;
+    position: absolute;
+    content: "\e6c3";
+    font-size: 50px;
+    left: 50%;
+    bottom: 90%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.ribbon:before {
+    width: 60px;
+    background-color: #ffffff;
+    color: #8e8e8e;
+    position: absolute;
+    content: "\e61a";
+    font-size: 50px;
+    left: 50%;
+    bottom: 90%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.shield:before {
+    width: 60px;
+    background-color: #ffffff;
+    color: #8e8e8e;
+    position: absolute;
+    content: "\e6c5";
+    font-size: 50px;
+    left: 50%;
+    bottom: 90%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.work-genus:hover {
+    border: 2px solid #000000;
+}
+.work-genus:hover .ribbon:before, .work-genus:hover .dimond:before, .work-genus:hover .rocket:before, .work-genus:hover .shield:before {
+    color: #000000;
+}
