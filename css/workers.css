@@ -1,0 +1,115 @@
+.wrapper-forest {
+    background-image: url(../Background@1X.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+.body-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: 23%;
+    /* min-height: 340px; */
+    font-size: 0;
+    position: relative;
+}
+
+.info {
+    background-color: #fff;
+    min-height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+ .name {
+    font-family: 'Lato' sans-serif;
+    font-size: 700;
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+    flex-basis: 83%;
+    text-transform: uppercase;
+ }
+
+ .occupation {
+    font-family: 'Roboto' sans-serif;
+    color: rgba(142, 142, 142, 255);
+    font-size: 15px;
+    flex-basis: 83%
+ }
+
+ .hover {
+    width: 40px;
+    min-height: 160px;
+    background-color: #fff;
+    position: absolute;
+    top: 14%;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+    transition: 1s;
+    opacity: 0;
+ }
+
+ .card:hover {
+    transform: translate(15%, 15%) rotate3d(10px);
+ }
+ 
+
+ .card:hover .hover {
+     z-index: 1;
+     opacity: 1;
+ }
+ 
+ .f:hover  {
+    border-right: 1px solid blue;
+ }
+ .f:hover .fa-facebook-f {
+    color: blue;    
+}
+
+ .t:hover {
+    border-right: 1px solid deepskyblue;
+ }
+ .t:hover .fa-twitter {
+    color: deepskyblue;
+ }
+
+ .d:hover {
+    border-right: 1px solid yellowgreen;
+ }
+ .d:hover .fa-dribbble {
+    color: yellowgreen;
+ }
+
+ .i:hover {
+    border-right: 1px solid violet;
+ }
+ .i:hover .fa-instagram {
+    color: violet;
+ } 
+
+.soc-net {
+    width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .fab {
+    font-size: 28px;
+    color: rgba(142, 142, 142, 1);
+ }
+
+
+
+ 
