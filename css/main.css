@@ -7,3 +7,8 @@
 @import "workers.css";
 @import "pricing.css";
 @import "footer.css";
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
