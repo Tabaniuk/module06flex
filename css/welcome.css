@@ -102,7 +102,7 @@
     color: #8e8e8e;
 }
 
-.dimond:before {
+.pe-7s-dimond:before {
     width: 60px;
     background-color: #ffffff;
     color: #8e8e8e;
@@ -115,7 +115,7 @@
     transform: translateX(-50%);
 }
 
-.rocket:before {
+.pe-7s-rocket:before {
     width: 60px;
     background-color: #ffffff;
     color: #8e8e8e;
@@ -128,7 +128,7 @@
     transform: translateX(-50%);
 }
 
-.ribbon:before {
+.pe-7s-ribbon:before {
     width: 60px;
     background-color: #ffffff;
     color: #8e8e8e;
@@ -141,7 +141,7 @@
     transform: translateX(-50%);
 }
 
-.shield:before {
+.pe-7s-shield:before {
     width: 60px;
     background-color: #ffffff;
     color: #8e8e8e;
@@ -157,6 +157,6 @@
 .work-genus:hover {
     border: 2px solid #000000;
 }
-.work-genus:hover .ribbon:before, .work-genus:hover .dimond:before, .work-genus:hover .rocket:before, .work-genus:hover .shield:before {
+.work-genus:hover .pe-7s-ribbon:before, .work-genus:hover .pe-7s-dimond:before, .work-genus:hover .pe-7s-rocket:before, .work-genus:hover .pe-7s-shield:before {
     color: #000000;
 }
